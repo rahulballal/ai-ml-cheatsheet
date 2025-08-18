@@ -209,4 +209,60 @@
     "example": "Text generation, language understanding",
     "documentationLinks": "https://huggingface.co/docs/transformers/index"
   }
+  ,
+  {
+    "concept": "Claude Code",
+    "definition": "Anthropic's Claude variant and tools optimized for code generation, understanding, and reasoning.",
+    "example": "Automated code generation, code review, explain-and-refactor",
+    "documentationLinks": "https://www.anthropic.com/claude"
+  },
+  {
+    "concept": "Google Gemini CLI",
+    "definition": "Command-line tools and client libraries to interact with Google's Gemini generative models and Vertex AI services.",
+    "example": "Generate text or images, run local prompts via CLI, manage model calls",
+    "documentationLinks": "https://developers.generativeai.google/"
+  },
+  {
+    "concept": "Claude Model",
+    "definition": "Anthropic's family of large language models (Claude) designed for safe and helpful conversational AI and reasoning tasks.",
+    "example": "Chat assistants, summarization, instruction following",
+    "documentationLinks": "https://www.anthropic.com/claude"
+  },
+  {
+    "concept": "GPT Model",
+    "definition": "OpenAI's family of generative pretrained transformer models for natural language understanding and generation.",
+    "example": "Chatbots, code generation, text summarization",
+    "documentationLinks": "https://platform.openai.com/docs/models"
+  },
+  {
+    "concept": "OpenRouter",
+    "definition": "An open API/router that proxies and routes requests to multiple LLM providers, providing a unified interface and billing options.",
+    "example": "Switching between model providers, unified API for multi-provider deployments",
+    "documentationLinks": "https://openrouter.ai/"
+  }
+  ,
+  {
+    "concept": "opencode cli",
+    "definition": "A community-oriented tooling concept for open, collaborative code generation and sharing workflows.",
+    "example": "Shared code templates, community-driven code generation",
+    "documentationLinks": "https://opencode.ai/docs/cli/"
+  },
+  {
+    "concept": "kiro",
+    "definition": "A lightweight code-assistant concept/tool (assumed) for quick code snippets, completion, and developer tooling integration.",
+    "example": "IDE plugin for inline code suggestions, snippet management",
+    "documentationLinks": "https://kiro.dev"
+  },
+  {
+    "concept": "OpenAI Codex CLI",
+    "definition": "Command-line tooling and client wrappers to interact with OpenAI's Codex models for code generation and analysis.",
+    "example": "Generate functions, explain code, run prompt-driven code generation from terminal",
+    "documentationLinks": "https://platform.openai.com/docs/guides/code"
+  },
+  {
+    "concept": "JSON RPC Protocol",
+    "definition": "A lightweight remote procedure call protocol encoded in JSON, used for inter-process and networked method invocation.",
+    "example": "Blockchain node APIs, language server protocol transports",
+    "documentationLinks": "https://www.jsonrpc.org/specification"
+  }
 ]
