@@ -1,268 +1,296 @@
 [
   {
     "concept": "Supervised Learning",
-    "definition": "A type of machine learning where the model is trained on labeled data to predict outputs.",
-    "example": "Image classification, sentiment analysis",
+    "definition": "A machine learning paradigm where models are trained on labeled input-output pairs to learn mappings that can predict outputs for new, unseen inputs.",
+    "example": "Image classification, sentiment analysis, regression analysis",
     "documentationLinks": "https://scikit-learn.org/stable/supervised_learning.html"
   },
   {
     "concept": "Unsupervised Learning",
-    "definition": "A type of machine learning where the model is trained on unlabeled data to discover patterns.",
-    "example": "Clustering customers, anomaly detection",
+    "definition": "A machine learning approach where models discover hidden patterns, structures, or relationships in data without explicit target labels or desired outputs.",
+    "example": "Customer segmentation clustering, anomaly detection, dimensionality reduction",
     "documentationLinks": "https://scikit-learn.org/stable/unsupervised_learning.html"
   },
   {
     "concept": "Deep Learning",
-    "definition": "A subset of machine learning that uses neural networks to analyze data.",
-    "example": "Speech recognition, natural language processing",
+    "definition": "A subset of machine learning that uses multi-layered neural networks (typically with 3+ hidden layers) to automatically learn hierarchical feature representations from data.",
+    "example": "Computer vision, speech recognition, natural language processing, generative AI",
     "documentationLinks": "https://www.tensorflow.org/learn"
   },
   {
     "concept": "Neural Networks",
-    "definition": "A type of machine learning model inspired by the human brain.",
-    "example": "Image recognition, speech recognition",
+    "definition": "Computational models inspired by biological neural networks, consisting of interconnected nodes (neurons) that process information through weighted connections and activation functions.",
+    "example": "Image recognition, speech recognition, pattern classification",
     "documentationLinks": "https://pytorch.org/tutorials/"
   },
   {
     "concept": "Natural Language Processing (NLP)",
-    "definition": "A field of study that focuses on the interaction between computers and humans in natural language.",
-    "example": "Sentiment analysis, language translation",
+    "definition": "A field of AI focused on enabling computers to understand, interpret, generate, and meaningfully respond to human language in both written and spoken forms.",
+    "example": "Sentiment analysis, machine translation, text summarization, chatbots",
     "documentationLinks": "https://spacy.io/usage/spacy-101"
   },
   {
     "concept": "Reinforcement Learning",
-    "definition": "A type of machine learning where the model learns through trial and error by interacting with an environment.",
-    "example": "Robotics, game playing",
+    "definition": "A machine learning paradigm where agents learn optimal behaviors through trial-and-error interactions with an environment, receiving rewards or penalties for their actions.",
+    "example": "Game playing (AlphaGo), robotics control, autonomous navigation, recommendation systems",
     "documentationLinks": "https://gymnasium.farama.org/"
   },
   {
     "concept": "Large Language Models (LLM)",
-    "definition": "A type of deep learning model trained on vast amounts of text data to generate human-like language.",
-    "example": "Text generation, language translation",
+    "definition": "Transformer-based neural networks trained on vast text corpora that can understand and generate human-like text across diverse tasks without task-specific training.",
+    "example": "GPT-4, Claude, text generation, code completion, question answering",
     "documentationLinks": "https://huggingface.co/docs/transformers/index"
   },
   {
     "concept": "Agents",
-    "definition": "A type of AI system that can perceive its environment and take actions to achieve goals.",
-    "example": "Robotics, autonomous vehicles",
+    "definition": "Autonomous AI systems that can perceive their environment, reason about goals, make decisions, and take actions to achieve objectives, often with the ability to learn and adapt from experience.",
+    "example": "Autonomous vehicles, trading bots, game-playing AI, personal assistants",
     "documentationLinks": "https://gymnasium.farama.org/tutorials/training_agents/"
   },
   {
     "concept": "Retrieval-Augmented Generation (RAG)",
-    "definition": "A type of AI model that uses retrieval mechanisms to generate text based on external knowledge sources.",
-    "example": "Question answering, text generation",
+    "definition": "An AI architecture that enhances language model responses by dynamically retrieving relevant information from external knowledge sources before generating answers.",
+    "example": "Document-based question answering, knowledge-grounded chatbots, research assistance",
     "documentationLinks": "https://huggingface.co/docs/transformers/model_doc/rag"
   },
   {
     "concept": "Agentic RAG",
-    "definition": "A type of AI model that combines the capabilities of agents and RAG to generate text based on external knowledge sources and take actions.",
-    "example": "Autonomous question answering, text-based games",
+    "definition": "An advanced AI architecture that combines retrieval-augmented generation with autonomous agent capabilities, enabling systems to dynamically query knowledge sources, reason about information, and take actions based on retrieved context.",
+    "example": "Autonomous research assistants, adaptive question-answering systems, intelligent document analysis",
     "documentationLinks": "https://arxiv.org/abs/2204.07705"
   },
   {
-    "concept": "Multi-Component Processing (MCP)",
-    "definition": "A type of AI architecture that uses multiple components to process and generate text.",
-    "example": "Text generation, language translation",
+    "concept": "Model Context Protocol (MCP)",
+    "definition": "A standardized protocol that enables AI applications to securely connect with external data sources and tools through uniform interfaces, facilitating better context integration and capability expansion.",
+    "example": "Connecting LLMs to databases, APIs, file systems, and development tools",
     "documentationLinks": "https://modelcontextprotocol.io/"
   },
   {
     "concept": "Agent-to-Agent (A2A)",
-    "definition": "A type of AI system that enables communication and interaction between multiple agents.",
-    "example": "Multi-agent systems, autonomous vehicles",
+    "definition": "Communication protocols and frameworks that enable autonomous AI agents to coordinate, negotiate, and collaborate with each other to accomplish complex tasks requiring distributed intelligence.",
+    "example": "Multi-agent reinforcement learning, distributed problem solving, agent marketplaces",
     "documentationLinks": "https://pettingzoo.farama.org/"
   },
   {
     "concept": "Context",
-    "definition": "The surrounding information or situation that helps to disambiguate and understand the meaning of text or data.",
-    "example": "Natural language processing, dialogue systems",
+    "definition": "The relevant background information, conversation history, and environmental state that an AI system uses to understand current inputs and generate appropriate responses within a specific domain or interaction.",
+    "example": "Conversation memory in chatbots, document context in RAG systems, situational awareness in robotics",
     "documentationLinks": "https://spacy.io/usage/linguistic-features#section-named-entities"
   },
   {
     "concept": "Memory",
-    "definition": "The ability of an AI system to store and retrieve information over time.",
-    "example": "Dialogue systems, question answering",
+    "definition": "Mechanisms in AI systems for storing, organizing, and retrieving information across interactions, including short-term context retention, long-term knowledge storage, and episodic memory for learning from experience.",
+    "example": "Conversation history, learned preferences, episodic buffers in RL, vector databases",
     "documentationLinks": "https://arxiv.org/abs/1506.07285"
   },
   {
     "concept": "Prompt",
-    "definition": "A piece of text or input that is used to guide or initiate the generation of text or actions by an AI system.",
-    "example": "Text generation, language translation",
+    "definition": "Carefully crafted text instructions or examples that guide AI models to perform specific tasks by providing context, constraints, and desired output formats.",
+    "example": "Few-shot examples, system instructions, chain-of-thought prompts, role-based prompting",
     "documentationLinks": "https://huggingface.co/docs/transformers/tasks/prompting"
   },
   {
     "concept": "Amazon SageMaker",
-    "definition": "A fully managed service for building, training, and deploying machine learning models.",
-    "example": "Model training, deployment, and management",
+    "definition": "AWS's fully managed machine learning platform providing integrated tools for data preparation, model building, training, tuning, deployment, and monitoring at scale.",
+    "example": "End-to-end ML pipelines, distributed training, A/B testing for models",
     "documentationLinks": "https://docs.aws.amazon.com/sagemaker/"
   },
   {
     "concept": "Amazon Rekognition",
-    "definition": "A deep learning-based image and video analysis service.",
-    "example": "Image and video analysis, facial recognition",
+    "definition": "AWS's computer vision service that uses deep learning to analyze images and videos for object detection, facial analysis, text recognition, and content moderation.",
+    "example": "Facial recognition systems, content moderation, medical image analysis",
     "documentationLinks": "https://docs.aws.amazon.com/rekognition/"
   },
   {
     "concept": "Amazon Comprehend",
-    "definition": "A natural language processing service for text analysis and insights.",
-    "example": "Text analysis, sentiment analysis, entity recognition",
+    "definition": "AWS's natural language processing service that extracts insights from text through sentiment analysis, entity recognition, key phrase extraction, and document classification.",
+    "example": "Customer feedback analysis, document processing, social media monitoring",
     "documentationLinks": "https://docs.aws.amazon.com/comprehend/"
   },
   {
     "concept": "Amazon Lex",
-    "definition": "A service for building conversational interfaces.",
-    "example": "Chatbots, voice assistants",
+    "definition": "AWS's conversational AI service for building chatbots and voice applications with natural language understanding, intent recognition, and dialogue management.",
+    "example": "Customer service bots, voice assistants, interactive applications",
     "documentationLinks": "https://docs.aws.amazon.com/lex/"
   },
   {
     "concept": "AWS SDK for Python (Boto3)",
-    "definition": "A Python SDK for interacting with AWS services.",
-    "example": "AI and ML development, automation",
+    "definition": "The official Python software development kit for programmatically accessing and managing AWS services, including AI/ML services, through Python applications.",
+    "example": "Automated ML workflows, cloud resource management, serverless AI applications",
     "documentationLinks": "https://boto3.amazonaws.com/v1/documentation/api/latest/index.html"
   },
   {
     "concept": "Azure Machine Learning",
-    "definition": "A cloud-based platform for building, training, and deploying machine learning models.",
-    "example": "Model training, deployment, and management",
+    "definition": "Microsoft's cloud-based MLOps platform providing end-to-end machine learning lifecycle management, from data preparation through model deployment and monitoring.",
+    "example": "Enterprise ML pipelines, automated ML, responsible AI workflows",
     "documentationLinks": "https://docs.microsoft.com/en-us/azure/machine-learning/"
   },
   {
     "concept": "Azure Cognitive Services",
-    "definition": "A set of cloud-based APIs for building intelligent applications.",
-    "example": "Computer vision, speech recognition, natural language processing",
+    "definition": "Microsoft's collection of pre-built AI APIs and services for computer vision, speech, language understanding, and decision-making without requiring ML expertise.",
+    "example": "Text analytics, computer vision, speech services, form recognition",
     "documentationLinks": "https://docs.microsoft.com/en-us/azure/cognitive-services/"
   },
   {
     "concept": "Azure Computer Vision",
-    "definition": "A cloud-based API for image analysis and processing.",
-    "example": "Image analysis, object detection",
+    "definition": "Microsoft's cloud API for analyzing visual content in images and videos, including object detection, optical character recognition, and spatial analysis.",
+    "example": "Document digitization, retail analytics, accessibility applications",
     "documentationLinks": "https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/"
   },
   {
-    "concept": "Azure Language Understanding",
-    "definition": "A cloud-based API for natural language processing.",
-    "example": "Text analysis, intent recognition",
+    "concept": "Azure Language Understanding (LUIS)",
+    "definition": "Microsoft's cloud service for building natural language understanding into applications, enabling intent recognition and entity extraction from user input.",
+    "example": "Conversational interfaces, command processing, intelligent routing",
     "documentationLinks": "https://docs.microsoft.com/en-us/azure/cognitive-services/luis/"
   },
   {
     "concept": "Azure SDK for Python",
-    "definition": "A Python SDK for interacting with Azure services.",
-    "example": "AI and ML development, automation",
+    "definition": "Microsoft's official Python libraries for integrating Azure services into Python applications, including AI and machine learning services.",
+    "example": "Cloud-native AI applications, automated workflows, data processing pipelines",
     "documentationLinks": "https://docs.microsoft.com/en-us/azure/developer/python/"
   },
   {
     "concept": "Google Cloud AI Platform",
-    "definition": "A managed platform for building, training, and deploying machine learning models.",
-    "example": "Model training, deployment, and management",
-    "documentationLinks": "https://cloud.google.com/ai-platform/docs"
+    "definition": "Google's unified machine learning platform (now Vertex AI) for building, training, and deploying ML models with integrated data preparation and MLOps capabilities.",
+    "example": "AutoML workflows, custom model training, production ML serving",
+    "documentationLinks": "https://cloud.google.com/vertex-ai/docs"
   },
   {
     "concept": "Google Cloud Vision",
-    "definition": "A cloud-based API for image analysis and processing.",
-    "example": "Image analysis, object detection",
+    "definition": "Google's computer vision API that derives insights from images using pre-trained models for object detection, text extraction, and image classification.",
+    "example": "Product catalog automation, document processing, visual search",
     "documentationLinks": "https://cloud.google.com/vision/docs"
   },
   {
     "concept": "Google Cloud Natural Language",
-    "definition": "A cloud-based API for natural language processing.",
-    "example": "Text analysis, sentiment analysis",
+    "definition": "Google's NLP API for analyzing text structure and meaning through entity recognition, sentiment analysis, content classification, and syntax analysis.",
+    "example": "Content analysis, customer feedback processing, document understanding",
     "documentationLinks": "https://cloud.google.com/natural-language/docs"
   },
   {
     "concept": "Google Cloud Speech-to-Text",
-    "definition": "A cloud-based API for speech recognition.",
-    "example": "Speech recognition, transcription",
+    "definition": "Google's automatic speech recognition service that converts audio to text using advanced neural network models with support for multiple languages and audio formats.",
+    "example": "Call center transcription, voice assistants, accessibility applications",
     "documentationLinks": "https://cloud.google.com/speech-to-text/docs"
   },
   {
     "concept": "Google Cloud Client Library for Python",
-    "definition": "A Python SDK for interacting with Google Cloud services.",
-    "example": "AI and ML development, automation",
+    "definition": "Google's official Python client libraries for programmatically accessing Google Cloud services, including AI and ML APIs.",
+    "example": "Automated AI workflows, cloud-native applications, data processing pipelines",
     "documentationLinks": "https://cloud.google.com/python/docs/reference"
   },
   {
-    "concept": "AgentCore",
-    "definition": "A framework for building autonomous agents.",
-    "example": "Autonomous systems, decision-making",
-    "documentationLinks": "https://github.com/AgentCore/agentcore"
-  },
-  {
-    "concept": "Strands SDK",
-    "definition": "A framework for building conversational interfaces.",
-    "example": "Chatbots, voice assistants",
-    "documentationLinks": "https://strands.ai/docs"
-  },
-  {
     "concept": "LangChain",
-    "definition": "A framework for building applications with large language models.",
-    "example": "Text generation, language understanding",
+    "definition": "An open-source framework for developing applications powered by language models, providing abstractions for prompts, chains, agents, and memory management.",
+    "example": "RAG applications, conversational agents, document analysis workflows",
     "documentationLinks": "https://python.langchain.com/docs/get_started/introduction"
   },
   {
     "concept": "LlamaIndex",
-    "definition": "A framework for building applications with large language models.",
-    "example": "Text generation, language understanding",
+    "definition": "A data framework for building LLM-powered applications with advanced indexing, querying, and retrieval capabilities for structured and unstructured data.",
+    "example": "Knowledge base querying, document search, context-aware applications",
     "documentationLinks": "https://docs.llamaindex.ai/en/stable/"
   },
   {
     "concept": "Hugging Face Transformers",
-    "definition": "A library for building and fine-tuning transformer models.",
-    "example": "Text generation, language understanding",
+    "definition": "An open-source library providing pre-trained transformer models and tools for natural language processing, computer vision, and audio processing tasks.",
+    "example": "Model fine-tuning, inference pipelines, custom transformer implementations",
     "documentationLinks": "https://huggingface.co/docs/transformers/index"
-  }
-  ,
+  },
   {
     "concept": "Claude Code",
-    "definition": "Anthropic's Claude variant and tools optimized for code generation, understanding, and reasoning.",
-    "example": "Automated code generation, code review, explain-and-refactor",
-    "documentationLinks": "https://www.anthropic.com/claude"
+    "definition": "Anthropic's command-line tool that enables developers to delegate coding tasks directly to Claude AI models from their terminal, supporting agentic code generation and analysis workflows.",
+    "example": "Automated code generation, code review assistance, refactoring tasks",
+    "documentationLinks": "https://docs.anthropic.com/en/docs/claude-code"
   },
   {
     "concept": "Google Gemini CLI",
-    "definition": "Command-line tools and client libraries to interact with Google's Gemini generative models and Vertex AI services.",
-    "example": "Generate text or images, run local prompts via CLI, manage model calls",
+    "definition": "Command-line interface and client libraries for interacting with Google's Gemini generative AI models and Vertex AI services for text and multimodal generation.",
+    "example": "Automated content generation, batch processing, integration with development workflows",
     "documentationLinks": "https://developers.generativeai.google/"
   },
   {
     "concept": "Claude Model",
-    "definition": "Anthropic's family of large language models (Claude) designed for safe and helpful conversational AI and reasoning tasks.",
-    "example": "Chat assistants, summarization, instruction following",
+    "definition": "Anthropic's family of large language models designed for safe, helpful, and honest AI assistance with strong reasoning capabilities and constitutional AI training.",
+    "example": "Conversational AI, content creation, code analysis, research assistance",
     "documentationLinks": "https://www.anthropic.com/claude"
   },
   {
     "concept": "GPT Model",
-    "definition": "OpenAI's family of generative pretrained transformer models for natural language understanding and generation.",
-    "example": "Chatbots, code generation, text summarization",
+    "definition": "OpenAI's family of generative pre-trained transformer models that excel at natural language understanding, generation, and reasoning across diverse tasks.",
+    "example": "Chatbots, code generation, creative writing, problem solving",
     "documentationLinks": "https://platform.openai.com/docs/models"
   },
   {
     "concept": "OpenRouter",
-    "definition": "An open API/router that proxies and routes requests to multiple LLM providers, providing a unified interface and billing options.",
-    "example": "Switching between model providers, unified API for multi-provider deployments",
+    "definition": "A unified API gateway that provides access to multiple LLM providers through a single interface, offering model routing, fallback options, and consolidated billing.",
+    "example": "Multi-provider LLM applications, cost optimization, model comparison workflows",
     "documentationLinks": "https://openrouter.ai/"
-  }
-  ,
-  {
-    "concept": "opencode cli",
-    "definition": "A community-oriented tooling concept for open, collaborative code generation and sharing workflows.",
-    "example": "Shared code templates, community-driven code generation",
-    "documentationLinks": "https://opencode.ai/docs/cli/"
-  },
-  {
-    "concept": "kiro",
-    "definition": "A lightweight code-assistant concept/tool (assumed) for quick code snippets, completion, and developer tooling integration.",
-    "example": "IDE plugin for inline code suggestions, snippet management",
-    "documentationLinks": "https://kiro.dev"
   },
   {
     "concept": "OpenAI Codex CLI",
-    "definition": "Command-line tooling and client wrappers to interact with OpenAI's Codex models for code generation and analysis.",
-    "example": "Generate functions, explain code, run prompt-driven code generation from terminal",
+    "definition": "Command-line tools and interfaces for accessing OpenAI's code-understanding models to generate, explain, and analyze code from natural language prompts.",
+    "example": "Automated code generation, code explanation, developer productivity tools",
     "documentationLinks": "https://platform.openai.com/docs/guides/code"
   },
   {
-    "concept": "JSON RPC Protocol",
-    "definition": "A lightweight remote procedure call protocol encoded in JSON, used for inter-process and networked method invocation.",
-    "example": "Blockchain node APIs, language server protocol transports",
+    "concept": "JSON-RPC Protocol",
+    "definition": "A lightweight, stateless remote procedure call protocol encoded in JSON format that enables method invocation across network boundaries with structured request-response messaging.",
+    "example": "API communication, blockchain node interfaces, language server protocols",
     "documentationLinks": "https://www.jsonrpc.org/specification"
+  },
+   {
+    "concept": "Fine-Tuning",
+    "definition": "The process of adapting a pre-trained model to perform better on specific tasks or domains by training it further on task-specific data while preserving learned general knowledge.",
+    "example": "Customizing GPT for legal document analysis, adapting BERT for medical text classification, training vision models for specific object recognition",
+    "documentationLinks": "https://huggingface.co/docs/transformers/training"
+  },
+  {
+    "concept": "Embedding",
+    "definition": "Dense vector representations that capture semantic meaning and relationships of data (text, images, audio) in high-dimensional space, enabling mathematical operations on concepts.",
+    "example": "Word2Vec for text similarity, sentence embeddings for semantic search, image embeddings for visual similarity matching",
+    "documentationLinks": "https://huggingface.co/docs/transformers/tasks/feature_extraction"
+  },
+  {
+    "concept": "Vector Databases",
+    "definition": "Specialized database systems optimized for storing, indexing, and querying high-dimensional vector embeddings using similarity search algorithms like cosine similarity or euclidean distance.",
+    "example": "Pinecone, Weaviate, Chroma for RAG applications, semantic search engines, recommendation systems",
+    "documentationLinks": "https://www.pinecone.io/learn/vector-database/"
+  },
+  {
+    "concept": "Vibe Coding",
+    "definition": "An informal programming approach that emphasizes intuitive, exploratory coding guided by feeling and experimentation rather than rigid planning, often used in AI development and rapid prototyping.",
+    "example": "Iterative prompt engineering, experimental ML model architectures, creative coding with generative AI tools",
+    "documentationLinks": "https://github.com/topics/creative-coding"
+  },
+  {
+    "concept": "Prompt Engineering",
+    "definition": "The practice of designing and optimizing input prompts to effectively communicate with AI models, using techniques like few-shot examples, chain-of-thought reasoning, and structured instructions.",
+    "example": "Creating effective ChatGPT prompts, designing system messages for assistants, building prompt templates for consistent outputs",
+    "documentationLinks": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview"
+  },
+  {
+    "concept": "Context Engineering",
+    "definition": "The strategic design and management of contextual information provided to AI systems to improve understanding, maintain coherence, and enhance performance across extended interactions.",
+    "example": "RAG system optimization, conversation memory management, multi-turn dialogue context preservation",
+    "documentationLinks": "https://python.langchain.com/docs/modules/memory/"
+  },
+  {
+    "concept": "Human-in-the-Loop (HITL)",
+    "definition": "A machine learning approach that combines automated AI processing with human judgment and intervention at critical decision points, ensuring quality control and continuous improvement.",
+    "example": "Content moderation systems, medical diagnosis assistance, autonomous vehicle edge cases, data labeling workflows",
+    "documentationLinks": "https://docs.aws.amazon.com/sagemaker/latest/dg/a2i-use-augmented-ai-a2i-human-review-loops.html"
+  },
+  {
+    "concept": "OpenCode CLI",
+    "definition": "An AI Coding agent built for the terminal with VIM like key bindings",
+    "example":"Agentic coding assistant",
+    "documentationLinks": "https://opencode.ai/"
+  },
+  {
+    "concept":"KIRO",
+    "definition": "An AI Powered IDE that uses a spec driven approach. It aids in writing specs and tasklists before generating code.",
+    "example":"-",
+    "documentationLinks":"https://kiro.dev"
   }
 ]
